@@ -12,3 +12,4 @@
 
 * [Njuškalo - Prodaja kuća](https://www.njuskalo.hr/prodaja-kuca)
 * [Njuškalo - Prodaja stanova](https://www.njuskalo.hr/prodaja-stanova)
+* Njuškalo - nekretnine
