@@ -17,6 +17,6 @@ for (const i in descriptions) {
         const euroPerSquareMeter = (euro / area).toFixed(2);
         const hrkPerSquareMeter = (hrk / area).toFixed(2);
 
-        priceElement.textContent = `${euroPerSquareMeter} €/m2 - ${hrkPerSquareMeter} kn/m2\n${priceElement.textContent}`;
+        priceElement.innerHTML = `${euroPerSquareMeter} €/m² - ${hrkPerSquareMeter} kn/m²<br>${priceElement.textContent}`;
     }
 }

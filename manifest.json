@@ -11,7 +11,7 @@
     },
     "content_scripts": [
         {
-            "js": ["scripts/content/square_meter_njuskalo.js"],
+            "js": ["scripts/content/square_meter_njuskalo_list.js"],
             "matches": [
                 "https://www.njuskalo.hr/prodaja-kuca*",
                 "https://www.njuskalo.hr/prodaja-stanova*"
