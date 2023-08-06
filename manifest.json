@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
     "name": "Kvadrat",
-    "version": "1.0",
-    "description": "Check prices per square meter on ad sites such as Njuškalo. Currently supports: Njuškalo.",
+    "version": "1.1",
+    "description": "Check prices per square meter on ad sites such as Njuškalo. Currently supports: Njuškalo, Index oglasi.",
     "icons": {
         "16": "images/icon-16.png",
         "32": "images/icon-32.png",
@@ -21,6 +21,26 @@
             "js": ["scripts/content/njuskalo/square_meter_njuskalo_single_item.js"],
             "matches": [
                 "https://www.njuskalo.hr/nekretnine*"
+            ]
+        },
+        {
+            "js": [
+                "scripts/content/index/square_meter_index_single_item.js"
+                
+            ],
+            "matches": [
+                "https://www.index.hr/oglasi*"
+            ]
+        },
+        {
+            "js": [
+                "scripts/content/index/square_meter_index_list.js"
+            ],
+            "matches": [
+                "https://www.index.hr/oglasi/prodaja-stanova*",
+                "https://www.index.hr/oglasi/stanovi*",
+                "https://www.index.hr/oglasi/prodaja-kuca*",
+                "https://www.index.hr/oglasi/kuce*"
             ]
         }
     ]

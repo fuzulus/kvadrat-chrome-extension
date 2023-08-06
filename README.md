@@ -18,3 +18,14 @@
 * Njuškalo - nekretnine
 
 ![Njuškalo single item example](images/examples/njuskalo-single-item.png)
+
+* [Index - Prodaja kuća](https://www.index.hr/oglasi/prodaja-kuca/gid/3276)
+* [Index - Kuće](https://www.index.hr/oglasi/kuce/gid/423)
+* [Index - Prodaja stanova](https://www.index.hr/oglasi/prodaja-stanova/gid/3278)
+* [Index - Stanovi](https://www.index.hr/oglasi/stanovi/gid/424)
+
+![Index list example](images/examples/index-list.png)
+
+* Index oglasi
+
+![Index single item example](images/examples/index-single-item.png)
